@@ -25,3 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+input,
+textarea,
+button {
+  @apply bg-gray-200;
+}
+
+.hero {
+  @apply mt-16 mx-auto w-full max-w-xl flex justify-center items-center flex-col gap-2;
+}
+
+.blog_card {
+  @apply flex-1 break-inside-avoid rounded-lg border border-slate-100 bg-slate-800 bg-clip-padding p-6 pb-4 backdrop-blur-lg backdrop-filter md:w-[360px] w-full h-fit;
+}
